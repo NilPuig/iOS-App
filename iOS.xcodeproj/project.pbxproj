@@ -24,6 +24,7 @@
 		7702B972219F7D21001B5F75 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B96E219F7D20001B5F75 /* ChatViewController.swift */; };
 		7702B973219F7D21001B5F75 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B96F219F7D21001B5F75 /* MessageCell.swift */; };
 		7702B974219F7D21001B5F75 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B970219F7D21001B5F75 /* GalleryViewController.swift */; };
+		7702B977219F7DBE001B5F75 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B976219F7DBE001B5F75 /* AnalyticsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		7702B96E219F7D20001B5F75 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7702B96F219F7D21001B5F75 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		7702B970219F7D21001B5F75 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		7702B976219F7DBE001B5F75 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
 		A35742824A41CA78A0299F0F /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 		7702B948219F71DC001B5F75 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
+				7702B976219F7DBE001B5F75 /* AnalyticsViewController.swift */,
 			);
 			path = Analytics;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				7702B973219F7D21001B5F75 /* MessageCell.swift in Sources */,
 				7702B961219F7B69001B5F75 /* ValidateForm.swift in Sources */,
 				7702B952219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift in Sources */,
+				7702B977219F7DBE001B5F75 /* AnalyticsViewController.swift in Sources */,
 				7702B951219F7AF1001B5F75 /* UIColor+Colors.swift in Sources */,
 				7702B96A219F7B79001B5F75 /* BubbleAnimation.swift in Sources */,
 				7702B954219F7AF1001B5F75 /* UIView+Shadow.swift in Sources */,
@@ -429,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nilpuig.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilpuig.clerkie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = nilpuig.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilpuig.clerkie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
