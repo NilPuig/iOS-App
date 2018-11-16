@@ -209,9 +209,7 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     textField.placeholder = "Username"
     textField.textAlignment = .center
     textField.translatesAutoresizingMaskIntoConstraints = false
-    //    textField.textColor = UIColor.mainDark
     textField.font = UIFont(name: "Helvetica-Bold", size: 15)
-    //    textField.placeHolderColor = UIColor.mainLight
     textField.backgroundColor = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
     textField.layer.cornerRadius = 20
 
@@ -233,9 +231,7 @@ class LoginViewController: UIViewController, UIViewControllerTransitioningDelega
     textField.isSecureTextEntry = true
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.textContentType = UITextContentType.password
-    //    textField.textColor = UIColor.mainDark
     textField.font = UIFont(name: "Helvetica-Bold", size: 15)
-    //    textField.placeHolderColor = UIColor.mainLight
     textField.backgroundColor = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
     textField.layer.cornerRadius = 20
     textField.dropShadow()
