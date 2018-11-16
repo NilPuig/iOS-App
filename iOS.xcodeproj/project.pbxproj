@@ -17,6 +17,9 @@
 		7702B952219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B94E219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift */; };
 		7702B953219F7AF1001B5F75 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B94F219F7AF1001B5F75 /* UIViewController+Alert.swift */; };
 		7702B954219F7AF1001B5F75 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B950219F7AF1001B5F75 /* UIView+Shadow.swift */; };
+		7702B960219F7B69001B5F75 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B955219F7B67001B5F75 /* SignUpViewController.swift */; };
+		7702B961219F7B69001B5F75 /* ValidateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B956219F7B68001B5F75 /* ValidateForm.swift */; };
+		7702B96A219F7B79001B5F75 /* BubbleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B969219F7B79001B5F75 /* BubbleAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		7702B94E219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+PlaceholderColor.swift"; sourceTree = "<group>"; };
 		7702B94F219F7AF1001B5F75 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		7702B950219F7AF1001B5F75 /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		7702B955219F7B67001B5F75 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7702B956219F7B68001B5F75 /* ValidateForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateForm.swift; sourceTree = "<group>"; };
+		7702B969219F7B79001B5F75 /* BubbleAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleAnimation.swift; sourceTree = "<group>"; };
 		A35742824A41CA78A0299F0F /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +100,9 @@
 		7702B946219F71CF001B5F75 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				7702B955219F7B67001B5F75 /* SignUpViewController.swift */,
+				7702B969219F7B79001B5F75 /* BubbleAnimation.swift */,
+				7702B956219F7B68001B5F75 /* ValidateForm.swift */,
 				7702B949219F71E8001B5F75 /* LoginViewController.swift */,
 			);
 			path = Login;
@@ -251,9 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7702B953219F7AF1001B5F75 /* UIViewController+Alert.swift in Sources */,
+				7702B960219F7B69001B5F75 /* SignUpViewController.swift in Sources */,
 				7702B94A219F71E8001B5F75 /* LoginViewController.swift in Sources */,
+				7702B961219F7B69001B5F75 /* ValidateForm.swift in Sources */,
 				7702B952219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift in Sources */,
 				7702B951219F7AF1001B5F75 /* UIColor+Colors.swift in Sources */,
+				7702B96A219F7B79001B5F75 /* BubbleAnimation.swift in Sources */,
 				7702B954219F7AF1001B5F75 /* UIView+Shadow.swift in Sources */,
 				7702B932219F7068001B5F75 /* AppDelegate.swift in Sources */,
 			);
