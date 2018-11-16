@@ -11,7 +11,6 @@
 		7702B932219F7068001B5F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B931219F7068001B5F75 /* AppDelegate.swift */; };
 		7702B939219F7069001B5F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7702B938219F7069001B5F75 /* Assets.xcassets */; };
 		7702B93C219F7069001B5F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7702B93A219F7069001B5F75 /* LaunchScreen.storyboard */; };
-		7702B945219F7187001B5F75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7702B944219F7187001B5F75 /* GoogleService-Info.plist */; };
 		7702B94A219F71E8001B5F75 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B949219F71E8001B5F75 /* LoginViewController.swift */; };
 		7702B951219F7AF1001B5F75 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B94D219F7AF0001B5F75 /* UIColor+Colors.swift */; };
 		7702B952219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B94E219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift */; };
@@ -25,6 +24,7 @@
 		7702B973219F7D21001B5F75 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B96F219F7D21001B5F75 /* MessageCell.swift */; };
 		7702B974219F7D21001B5F75 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B970219F7D21001B5F75 /* GalleryViewController.swift */; };
 		7702B977219F7DBE001B5F75 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702B976219F7DBE001B5F75 /* AnalyticsViewController.swift */; };
+		7796AB16219F824E0085EB20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7796AB15219F824E0085EB20 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		7702B938219F7069001B5F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7702B93B219F7069001B5F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7702B93D219F7069001B5F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7702B944219F7187001B5F75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Clerkie/Clerkie/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7702B949219F71E8001B5F75 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7702B94D219F7AF0001B5F75 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
 		7702B94E219F7AF1001B5F75 /* UITextField+PlaceholderColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+PlaceholderColor.swift"; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7702B96F219F7D21001B5F75 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		7702B970219F7D21001B5F75 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		7702B976219F7DBE001B5F75 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		7796AB15219F824E0085EB20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A35742824A41CA78A0299F0F /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,9 +98,9 @@
 				7702B938219F7069001B5F75 /* Assets.xcassets */,
 				7702B93A219F7069001B5F75 /* LaunchScreen.storyboard */,
 				7702B93D219F7069001B5F75 /* Info.plist */,
+				7796AB15219F824E0085EB20 /* GoogleService-Info.plist */,
 				7702B94C219F74EC001B5F75 /* Extensions */,
 				7702B946219F71CF001B5F75 /* Login */,
-				7702B944219F7187001B5F75 /* GoogleService-Info.plist */,
 				7702B948219F71DC001B5F75 /* Analytics */,
 				7702B947219F71D6001B5F75 /* Chat */,
 			);
@@ -218,7 +218,7 @@
 			files = (
 				7702B93C219F7069001B5F75 /* LaunchScreen.storyboard in Resources */,
 				7702B939219F7069001B5F75 /* Assets.xcassets in Resources */,
-				7702B945219F7187001B5F75 /* GoogleService-Info.plist in Resources */,
+				7796AB16219F824E0085EB20 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
